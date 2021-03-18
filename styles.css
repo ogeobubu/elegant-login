@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Roboto", sans-serif;
+  color: #646362;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+input {
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+  background: none;
+  width: 100%;
+}
+
+input:focus,
+input:active {
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
+.form-control {
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background-color: #ffffff;
+  width: 70%;
+}
+
+.form-control-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0.5rem;
+  border-bottom: 1px #ccc solid;
+  border-radius: 4px;
+  padding: 0.5rem 0;
+}
+
+.form-control-item .fa {
+  margin-right: 1rem;
+  font-size: 23px;
+  width: 25px;
+}
+
+.fa-paper-plane {
+  font-size: 18px !important;
+}
+
+.fa-eye {
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.7rem 0.5rem;
+  border-radius: 4px;
+  background-color: #19aa8d;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#green {
+  color: #19aa8d;
+}
+
+.validator {
+  text-align: left;
+}
+
+.error {
+  background-color: rgb(170, 19, 19);
+  padding: 0.3rem;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.success {
+  background-color: rgb(20, 90, 20);
+  padding: 0.3rem;
+  color: #ffffff;
+  font-weight: bolder;
+}

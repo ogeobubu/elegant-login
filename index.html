@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Signup</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <form id="submit" novalidate>
+        <div class="form-control">
+          <h1>Create Account</h1>
+          <p>It's free and hardly takes more than 30 seconds.</p>
+          <p id="validator"></p>
+          <div class="form-control-item">
+            <div class="icon">
+              <i class="fa fa-user"></i>
+            </div>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Username"
+            />
+          </div>
+          <div class="form-control-item">
+            <div class="icon">
+              <i class="fa fa-paper-plane"></i>
+            </div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+          </div>
+          <div class="form-control-item">
+            <div class="icon">
+              <i class="fa fa-lock"></i>
+            </div>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <div class="icon">
+              <i class="fa fa-eye eye-password" id="eye"></i>
+            </div>
+          </div>
+          <div class="form-control-item">
+            <div class="icon">
+              <i class="fa fa-check"></i>
+            </div>
+            <input
+              type="password"
+              name="confirmPassword"
+              id="confirmPassword"
+              placeholder="Confirm Password"
+            />
+          </div>
+          <input class="button" type="submit" value="Sign Up" />
+          <p>
+            By clicking the Sign Up button, you agree to our
+            <a href="#" id="green">Terms & Conditions</a>, and
+            <a href="#" id="green">Privacy Policy</a>.
+          </p>
+        </div>
+      </form>
+    </main>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
