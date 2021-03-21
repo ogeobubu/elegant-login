@@ -38,6 +38,11 @@ h1 {
 p {
   text-align: center;
   margin-top: 1rem;
+  font-size: 14px;
+}
+
+#terms {
+  font-size: 12px;
 }
 
 input {
