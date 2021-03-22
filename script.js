@@ -53,10 +53,10 @@ submit.addEventListener("submit", (e) => {
   }
 
   const user = {
-    username: username.value,
-    email: email.value,
-    password: password.value,
-    confirmPassword: confirmPassword.value,
+    username: username.value.trim(),
+    email: email.value.trim(),
+    password: password.value.trim(),
+    confirmPassword: confirmPassword.value.trim(),
   };
 
   if (
